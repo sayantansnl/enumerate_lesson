@@ -93,4 +93,4 @@ Cleaned Data: [10, 12, 13, 14, 11, 15, 12]
 Peaks found at indices: [3, 5]
 ```
 
-Return the result as tuple: `(Cleaned Data, Peaks)`
+Return the result as a tuple: `(Cleaned Data, Peaks)`
