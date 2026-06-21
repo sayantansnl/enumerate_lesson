@@ -77,7 +77,7 @@ You are given a list of integers representing consecutive sensor readings. Due t
 
 Write a function `clean_and_analyze(readings)` that does two things using `enumerate()`:
 
-* **Fix the Corrupted Data:** Replace any -1 with the average of its immediate neighbors (the number right before it and the number right after it). Assume the first and last items in the list will never be `-1`.
+* **Fix the Corrupted Data:** Replace any `-1` with the average of its immediate neighbors (the number right before it and the number right after it). Assume the first and last items in the list will never be `-1`.
 * **Find the Peaks:**  Identify the indices of all "peaks" in the corrected data. A peak is a number that is strictly greater than both its left and right neighbors.
 
 Example input: 
